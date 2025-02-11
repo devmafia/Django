@@ -1,0 +1,55 @@
+# -----------------
+# Python / Django
+# -----------------
+
+# Byte-compiled / cached / virtual environments
+__pycache__/
+*.py[cod]
+*.swp
+*.swo
+*.bak
+*.orig
+*.rej
+
+# Dependency management
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# SQLite database (if using SQLite)
+db.sqlite3
+*.sqlite3
+
+# PostgreSQL / MySQL dump files
+*.dump
+*.sql
+
+# Static and media files
+staticfiles/
+media/
+static/
+media_root/
+static_root/
+
+# Compiled translations
+*.mo
+
+# Logs and debug files
+logs/
+*.log
+debug.log
+
+# Ignore pytest and testing files
+.pytest_cache/
+coverage/
+htmlcov/
+.nyc_output/
+
+# IDE / Editor specific files
+.vscode/
+.idea/
+*.iml
+
+# OS-generated files
+.DS_Store
+Thumbs.db
